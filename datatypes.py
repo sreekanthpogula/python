@@ -131,7 +131,9 @@ def my_function(child3, child2, child1):
 
 
 my_function(child1="Emil", child2="Tobias", child3="Linus")
-z = lambda k: k + 10
+def z(k): return k + 10
+
+
 print(z(5))
 
 
