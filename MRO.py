@@ -5,13 +5,13 @@ class A:
 
 
 class B(A):
-    def rk(self):
-        print("IN CLASS B")
+    # def rk(self):
+    #     print("IN CLASS B")
+    pass
 
 
-class C(B):
-    def rk(self):
-        print("IN CLASS C")
+class C(B, A):
+    pass
 
 
 r = A()
