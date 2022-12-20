@@ -37,8 +37,61 @@ print(my_list.count(9))
 print(sorted(my_list))
 
 # Tuple
+my_tuple = (1, 2, 3, 'education')  # creating a tuple
+print(my_tuple)
+for x in my_tuple:
+    print(x)
+print(my_tuple[0])
+print(my_tuple[:])
+print(my_tuple[3][4])
+my_tuple = my_tuple + (4, 5, 6)
+print(my_tuple)
+print(my_tuple.count(2))
 # Dictionary
+my_dict = {}
+print(my_dict)
+my_dict = {"a": 1, "b": 2, "c": 3}
+print(my_dict)
+# Changing and Adding key, value pairs
+my_dict = {"first": 1, "second": 'python', "third": 'Java'}
+print(my_dict)
+my_dict['second'] = 'c++'
+print(my_dict)
+my_dict['third'] = 'rust'
+print(my_dict)
+# Deleting key, value pairs
+a = my_dict.pop('third')
+print('value:', a)
+print('dictionary:', my_dict)
+b = my_dict.popitem()
+print('key', 'value pair:', b)
+print('dictionary:', my_dict)
+my_dict.clear()
+print(my_dict)
+# accessing dictionary
+my_dict = {'first': 'rust', 'second': 'java', 'third': 'go'}
+print(my_dict['first'])
+print(my_dict.get('second'))
+print(my_dict.keys())  # get all keys
+print(my_dict.values())  # get key-value pairs
+print(my_dict.items())
+
+
 # Set
+my_set = {1, 2, 3, 4, 5, 4, 7, 8, 9}  # create set
+print(my_set)
+# adding elements
+my_set.add(10)  # add elements to set
+print(my_set)
+my_set_2 = {1, 2, 3, 4, 5}
+print(my_set.union(my_set), '-------------', my_set | my_set_2)
+print(my_set.intersection(my_set_2), '--------', my_set & my_set_2)
+print(my_set.difference(my_set_2), '----------', my_set - my_set_2)
+print(my_set.symmetric_difference(my_set_2), '----------', my_set ^ my_set_2)
+my_set.clear()
+print(my_set)
+
+
 # User-defined types of data structures
 # Stack
 # Queue
