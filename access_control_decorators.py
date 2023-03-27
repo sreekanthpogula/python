@@ -74,22 +74,24 @@ def delete_account(user_id):
         raise Exception("You can only delete your own account")
 
 # Test the delete_account function
-login(1)
-delete_account(1)  # Should print "Deleting user account with ID 1"
+login(1070)
+delete_account(1070)  # Should print "Deleting user account with ID 1"
 logout()
 
 try:
-    delete_account(2)  # Should raise an exception
+    delete_account(1070)  # Should raise an exception
 except Exception as e:
     print(e)
 
-login(2)
+login(1070)
 
 try:
     delete_account(1)  # Should raise an exception
 except Exception as e:
     print(e)
 
-delete_account(2)  # Should print "Deleting user account with ID 2"
+delete_account(1070)  # Should print "Deleting user account with ID 2"
 logout()
+login(1070)
+print(current_user_id())
 
