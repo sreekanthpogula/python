@@ -18,3 +18,10 @@ def text_printer(text):
     print(text)
 
 text_printer("This is my text")
+
+@body
+@html
+def text_printer(text):
+    print(text)
+
+text_printer("This is my text")
