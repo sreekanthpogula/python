@@ -2,6 +2,7 @@ def addone(func):
     def wrapper(x):
         return func(x) + 1
     return wrapper
+
 def subfour(func):
     def wrapper(x):
         return func(x) - 4
