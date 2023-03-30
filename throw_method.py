@@ -1,3 +1,6 @@
+from generator_methods import getPrimes
+
+
 prime_gen = getPrimes()
 
 for x in prime_gen:

@@ -1,31 +1,3 @@
-# import asyncio
-
-# async def my_coroutine():
-#     print('Coroutine started')
-#     value = await asyncio.sleep(1)
-#     print(f'Coroutine received value: {value}')
-#     result = await asyncio.sleep(1)
-#     print(f'Coroutine received result: {result}')
-
-# async def main():
-#     coro = my_coroutine()
-#     print('Main coroutine started')
-#     await asyncio.sleep(0.5)
-#     print('Main coroutine sending value to my_coroutine')
-#     await coro  # This will start the coroutine and reach the first yield statement
-#     try:
-#         coro.send('Hello')
-#     except StopIteration:
-#         pass
-#     await asyncio.sleep(0.5)
-#     print('Main coroutine sending result to my_coroutine')
-#     try:
-#         coro.send(42)
-#     except StopIteration:
-#         pass
-
-# asyncio.run(main())
-
 # Sample program
 def isPrime(n):
     if n < 2 or n % 1 > 0:
