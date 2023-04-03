@@ -1,0 +1,8 @@
+Coroutines are useful in situations where you need to perform long-running, asynchronous tasks, such as network or database operations, without blocking the main thread of execution. They are often used in conjunction with the asyncio module in Python to build high-performance, scalable, and responsive applications.
+
+Here are some examples of use cases for coroutines:
+
+Web scraping: Coroutines can be used to perform asynchronous HTTP requests to scrape data from websites without blocking the main thread.
+Chat applications: Coroutines can be used to handle incoming messages and send outgoing messages in real-time, allowing for seamless communication between users.
+Database operations: Coroutines can be used to perform asynchronous database queries and updates without blocking the main thread, improving the responsiveness of the application.
+Machine learning: Coroutines can be used to run asynchronous training and inference operations on large datasets, allowing for faster model training and prediction.
