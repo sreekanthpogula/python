@@ -6,6 +6,7 @@ def adjacent_boxes(coord):
                 continue  
             if 1 <= r <= 8 and 1 <= c <= 8:
                 yield (r, c) 
-
-for box in adjacent_boxes((2,2)):
+r = int(input())
+c = int (input())
+for box in adjacent_boxes((r, c)):
     print(box)
