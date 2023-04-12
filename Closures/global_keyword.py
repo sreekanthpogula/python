@@ -4,8 +4,8 @@ global_var = 10
 def my_function():
     # define local variable
     local_var = 20
-
-    # modify global variable value 
+    print(local_var)
+    # modify global variable value
     global global_var
     global_var = 30
 
