@@ -1,4 +1,4 @@
-from generator_methods import getPrimes
+from Generators.generator_methods import getPrimes
 
 
 prime_gen = getPrimes()

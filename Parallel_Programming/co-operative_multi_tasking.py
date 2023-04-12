@@ -5,7 +5,7 @@ import asyncio
 
 async def task1():
     while True:
-        print("Task 1")
+        print("Task 1 ")
         await asyncio.sleep(1)
 
 async def task2():
