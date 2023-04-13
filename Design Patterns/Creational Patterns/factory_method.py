@@ -34,6 +34,10 @@ class ConcreteCreator1(Creator):
 class ConcreteCreator2(Creator):
     def factory_method(self) -> Product:
         return ConcreteProduct2()
+    
+class ConcreteCreator3(Creator):
+    def factory_method(Self) -> Product:
+        return ConcreteProduct3()
 
 
 class Product(ABC):
@@ -51,6 +55,9 @@ class ConcreteProduct2(Product):
     def operation(self) -> str:
         return "{Result of the ConcreteProduct2}"
 
+class ConcreteProduct3(Product):
+    def operation(Self) -> str:
+        return "{Result of the ConcreteProduct3}"
 
 def client_code(creator: Creator) -> None:
     print(f"Client: I'm not aware of the creator's class, but it still works.\n"
@@ -64,3 +71,6 @@ if __name__ == "__main__":
 
     print("App: Launched with the ConcreteCreator2.")
     client_code(ConcreteCreator2())
+    print("\n")
+    print("App: Launched with the ConcreteCreator3.")
+    client_code(ConcreteCreator3())
