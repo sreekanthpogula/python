@@ -47,5 +47,3 @@ class Robot:
         
 robot = Robot.Builder().set_head("metal").set_body("plastic").set_hands("claws").set_legs("wheels").set_tail("none").build()
 robot.display_robot()
-      
-        
