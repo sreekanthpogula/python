@@ -2,7 +2,6 @@
 # Use the Prototype pattern when your code shouldn’t depend on the concrete classes of objects that you need to copy.
 # Use the pattern when you want to reduce the number of subclasses that only differ in the way they initialize their respective objects.
 # Usage examples: The Prototype pattern is available in Python out of the box with a copy module.
-
 # Identification: The prototype can be easily recognized by a clone or copy methods, etc.
 
 import copy
