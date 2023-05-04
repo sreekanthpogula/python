@@ -21,7 +21,7 @@ password.send_keys(Keys.RETURN)
 time.sleep(5)
 
 # navigate to the logout page
-browser.get("https://senecaglobal.greythr.com/v3/portal/ess/logout")
+browser.get("")
 
 # close the browser window
 browser.quit()
