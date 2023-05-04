@@ -1,0 +1,49 @@
+1682329273617	geckodriver	INFO	Listening on 127.0.0.1:49683
+1682329276686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49684" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SREEKA~1.POG\\AppData\\Local\\Temp\\rust_mozprofilesIazKT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682329277414	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682329277419	Marionette	INFO	Listening on port 49697
+Read port: 49697
+WebDriver BiDi listening on ws://127.0.0.1:49684
+1682329277627	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SREEKA~1.POG\\AppData\\Local\\Temp\\rust_mozprofilesIazKT\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:49684/devtools/browser/ad500513-f0a6-4b56-aa34-17e8f1f0b894
+1682329279888	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1682329295243	Marionette	INFO	Stopped listening on port 49697
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1682329373787	geckodriver	INFO	Listening on 127.0.0.1:65239
+1682329376842	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65240" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SREEKA~1.POG\\AppData\\Local\\Temp\\rust_mozprofileKBzwv4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682329377236	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682329377241	Marionette	INFO	Listening on port 65248
+Read port: 65248
+WebDriver BiDi listening on ws://127.0.0.1:65240
+1682329377368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SREEKA~1.POG\\AppData\\Local\\Temp\\rust_mozprofileKBzwv4\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:65240/devtools/browser/f04bc4e2-4c65-488d-9f63-933189346dc9
+1682329379000	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1682329386468	Marionette	INFO	Stopped listening on port 65248
+Dynamically enable window occlusion 1
+1682329486983	geckodriver	INFO	Listening on 127.0.0.1:60481
+1682329490067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60482" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SREEKA~1.POG\\AppData\\Local\\Temp\\rust_mozprofileYBA9fi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682329490329	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682329490335	Marionette	INFO	Listening on port 60490
+Read port: 60490
+WebDriver BiDi listening on ws://127.0.0.1:60482
+1682329490471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\SREEKA~1.POG\\AppData\\Local\\Temp\\rust_mozprofileYBA9fi\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:60482/devtools/browser/07d6eb2f-61d5-42ce-bb12-1408dffc2556
+1682329492162	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1682329508640	Marionette	INFO	Stopped listening on port 60490
+Dynamically enable window occlusion 1
