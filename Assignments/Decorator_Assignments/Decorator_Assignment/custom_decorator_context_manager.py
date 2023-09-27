@@ -10,8 +10,6 @@ class CustomDecoratorContextManager:
         if self.filename:
             self.file = open(self.filename, 'r')
             return self.file
-        else:
-            return None
 
     def __exit__(self, exc_type, exc_value, traceback):
         if self.filename:
@@ -20,10 +18,10 @@ class CustomDecoratorContextManager:
     def __call__(self, func):
         def wrapper(*args, **kwargs):
             start_time = time.time()
-            result = func(*args, **kwargs)
-            end_time = time.time()
             print(
                 f"Function {func.__name__} was called at {time.ctime(start_time)}")
+            result = func(*args, **kwargs)
+            end_time = time.time()
             print(
                 f"Function {func.__name__} took {end_time - start_time:.2f} seconds to execute")
             return result
